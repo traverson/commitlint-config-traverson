@@ -1,0 +1,9 @@
+/.github/
+
+.commitlintrc.js
+.editorconfig
+.gitattributes
+.huskyrc.json
+.nvmrc
+.travis.yml
+rollup.config.js
