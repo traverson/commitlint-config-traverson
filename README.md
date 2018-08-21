@@ -1,5 +1,7 @@
 # commitlint-config-traverson
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/traverson/commitlint-config-traverson.svg)](https://greenkeeper.io/)
+
 shareable config for [commitlint](https://github.com/marionebl/commitlint)
 
 <!-- status badges -->
