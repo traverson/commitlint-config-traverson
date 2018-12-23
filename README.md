@@ -69,7 +69,7 @@ $ npm test
 [license-link]: LICENSE
 [license-badge]: https://img.shields.io/github/license/traverson/commitlint-config-traverson.svg
 [ci-link]: https://travis-ci.com/traverson/commitlint-config-traverson
-[ci-badge]: https://img.shields.io/travis/traverson/commitlint-config-traverson.svg?branch=master
+[ci-badge]: https://img.shields.io/travis/com/traverson/commitlint-config-traverson/master.svg
 [commit-convention-link]: https://conventionalcommits.org
 [commit-convention-badge]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
 [commitizen-link]: http://commitizen.github.io/cz-cli/
