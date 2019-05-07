@@ -32,6 +32,6 @@
     "travis-lint": "^1.0.0"
   },
   "dependencies": {
-    "commitlint-config-travi": "1.2.35"
+    "commitlint-config-travi": "1.2.42"
   }
 }
