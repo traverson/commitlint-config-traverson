@@ -27,21 +27,18 @@ jobs:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
       - uses: bahmutov/npm-install@v1
       - run: npm test
-  release:
-    needs: verify
+  trigger-release:
     runs-on: ubuntu-latest
+    if: github.event_name == 'push'
     steps:
-      - uses: actions/checkout@v2
-      - name: Read .nvmrc
-        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
-        id: nvm
-      - name: Setup node
-        uses: actions/setup-node@v2
+      - uses: octokit/request-action@v2.x
         with:
-          node-version: ${{ steps.nvm.outputs.NVMRC }}
-      - uses: bahmutov/npm-install@v1
-      - name: semantic-release
-        run: npx semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+          route: >-
+            POST
+            /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches
+          owner: traverson
+          repo: commitlint-config-traverson
+          ref: ${{ github.ref }}
+          workflow_id: release.yml
+          env:
+            GITHUB_TOKEN: ${{ secrets.GH_PAT }}
