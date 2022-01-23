@@ -10,7 +10,8 @@
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "scripts": {
     "lint:sensitive": "ban",
-    "test": "npm-run-all --print-label --parallel lint:*"
+    "test": "npm-run-all --print-label --parallel lint:*",
+    "prepare": "husky install"
   },
   "publishConfig": {
     "access": "public"
