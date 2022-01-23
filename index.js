@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['travi']
+  extends: ['@form8ion']
 };
