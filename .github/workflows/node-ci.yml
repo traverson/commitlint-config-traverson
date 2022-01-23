@@ -3,7 +3,6 @@ name: Node.js CI
   push:
     branches:
       - master
-      - alpha
       - beta
       - renovate/**
   pull_request:
@@ -30,6 +29,7 @@ jobs:
   trigger-release:
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
+    needs: verify
     steps:
       - uses: octokit/request-action@v2.x
         with:
@@ -40,5 +40,5 @@ jobs:
           repo: commitlint-config-traverson
           ref: ${{ github.ref }}
           workflow_id: release.yml
-          env:
-            GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
