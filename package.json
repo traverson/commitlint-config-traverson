@@ -24,7 +24,7 @@
   "devDependencies": {
     "ban-sensitive-files": "1.9.18",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "8.0.1",
+    "husky": "8.0.2",
     "npm-run-all": "4.1.5"
   },
   "dependencies": {
