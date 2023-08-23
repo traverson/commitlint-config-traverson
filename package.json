@@ -22,7 +22,7 @@
     }
   },
   "devDependencies": {
-    "ban-sensitive-files": "1.9.19",
+    "ban-sensitive-files": "1.10.0",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
     "npm-run-all": "4.1.5"
