@@ -1,13 +1,13 @@
 {
   "name": "commitlint-config-traverson",
   "description": "shareable config for commitlint",
-  "version": "0.0.0-semantically-released",
-  "main": "index.js",
   "license": "MIT",
+  "version": "0.0.0-semantically-released",
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "repository": "traverson/commitlint-config-traverson",
   "bugs": "https://github.com/traverson/commitlint-config-traverson/issues",
   "homepage": "https://npm.im/commitlint-config-traverson",
-  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "main": "index.js",
   "scripts": {
     "lint:sensitive": "ban",
     "test": "npm-run-all --print-label --parallel lint:*",
@@ -23,14 +23,14 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "dependencies": {
+    "@form8ion/commitlint-config": "1.0.55"
+  },
   "devDependencies": {
     "ban-sensitive-files": "1.10.0",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
     "npm-run-all2": "6.0.6",
     "publint": "0.2.2"
-  },
-  "dependencies": {
-    "@form8ion/commitlint-config": "1.0.55"
   }
 }
