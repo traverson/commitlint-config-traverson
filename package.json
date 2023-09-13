@@ -11,7 +11,8 @@
   "scripts": {
     "lint:sensitive": "ban",
     "test": "npm-run-all --print-label --parallel lint:*",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint:publish": "publint --strict"
   },
   "publishConfig": {
     "access": "public",
@@ -26,7 +27,8 @@
     "ban-sensitive-files": "1.10.0",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
-    "npm-run-all2": "6.0.6"
+    "npm-run-all2": "6.0.6",
+    "publint": "0.2.2"
   },
   "dependencies": {
     "@form8ion/commitlint-config": "1.0.55"
