@@ -100,7 +100,7 @@ $ npm test
 
 [github-actions-ci-link]: https://github.com/traverson/commitlint-config-traverson/actions?query=workflow%3A%22Node.js+CI%22+branch%3Amaster
 
-[github-actions-ci-badge]: https://github.com/traverson/commitlint-config-traverson/workflows/Node.js%20CI/badge.svg
+[github-actions-ci-badge]: https://img.shields.io/github/actions/workflow/status/traverson/commitlint-config-traverson/node-ci.yml.svg?branch=master&logo=github
 
 [renovate-link]: https://renovatebot.com
 
