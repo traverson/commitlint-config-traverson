@@ -29,7 +29,7 @@
   "devDependencies": {
     "ban-sensitive-files": "1.10.4",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "9.1.1",
+    "husky": "9.1.2",
     "npm-run-all2": "6.2.2",
     "publint": "0.2.9"
   }
