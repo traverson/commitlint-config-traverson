@@ -31,6 +31,6 @@
     "cz-conventional-changelog": "3.3.0",
     "husky": "9.1.6",
     "npm-run-all2": "7.0.1",
-    "publint": "0.2.11"
+    "publint": "0.2.12"
   }
 }
