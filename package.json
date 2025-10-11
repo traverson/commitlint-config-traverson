@@ -27,7 +27,7 @@
     "@form8ion/commitlint-config": "2.0.8"
   },
   "devDependencies": {
-    "ban-sensitive-files": "1.10.10",
+    "ban-sensitive-files": "1.10.11",
     "cz-conventional-changelog": "3.3.0",
     "husky": "9.1.7",
     "npm-run-all2": "8.0.4",
