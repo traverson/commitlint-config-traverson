@@ -24,7 +24,7 @@
     }
   },
   "dependencies": {
-    "@form8ion/commitlint-config": "2.0.15"
+    "@form8ion/commitlint-config": "2.0.16"
   },
   "devDependencies": {
     "ban-sensitive-files": "1.10.11",
